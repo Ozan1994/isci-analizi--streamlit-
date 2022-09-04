@@ -1,1 +1,1 @@
-web: sh Setup.sh && streamlit run isciler.py
+web: sh setup.sh && streamlit run isciler.py
