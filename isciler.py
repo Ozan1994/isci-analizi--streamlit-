@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("C:/Users/MSI/Desktop/filled_employees.csv")
+df = pd.read_csv("filled_employees.csv")
 
 st.title("İşçiler")
 
