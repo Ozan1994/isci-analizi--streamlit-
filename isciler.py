@@ -111,8 +111,8 @@ sns.barplot(x = 'Team',
             estimator = np.mean,
             capsize=0.15,
             ci=None)
-
-plt.xticks(rotation=35)
+plt.legend(loc="lower right")
+plt.xticks(rotation=65)
 plt.tight_layout()
 
 st.pyplot(fig)
