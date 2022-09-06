@@ -110,7 +110,7 @@ sns.barplot(x = 'Team',
             palette=["mediumblue","orangered"],
             estimator = np.mean,
             capsize=0.15,
-            ci=0)
+            ci=None)
 
 plt.xticks(rotation=35)
 plt.tight_layout()
