@@ -98,7 +98,7 @@ st.write("***")
 st.subheader("Tüm takımların cinsiyete göre ortalama maaş grafiği ")
 # Grafik çizimi
 
-upt_df = pd.read_csv("C:/Users/MSI/Desktop/filled_employees.csv")
+upt_df = pd.read_csv("filled_employees.csv")
 
 fig = plt.figure(figsize=(12,10))
 sns.set(font_scale= 1.5)
